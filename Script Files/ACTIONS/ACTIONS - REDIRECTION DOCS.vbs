@@ -1,8 +1,3 @@
-'STATS GATHERING----------------------------------------------------------------------------------------------------
-name_of_script = "ACTIONS - REDIRECTION DOCS.vbs"
-start_time = timer
-'MANUAL TIME TO COMPLETE THIS SCRIPT IS NEEDED
-
 'LOADING SCRIPT
 url = "https://raw.githubusercontent.com/MN-CS-Script-Team/PRISM-Scripts/master/Shared%20Functions%20Library/PRISM%20Functions%20Library.vbs"
 SET req = CreateObject("Msxml2.XMLHttp.6.0")				'Creates an object to get a URL
@@ -312,5 +307,5 @@ EMWriteScreen "The redirection should be effective the 1st of next month", 10, 4
 EMWriteScreen "30", 17, 52
 Transmit 
 
-script_end_procedure("")
+
 
